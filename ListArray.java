@@ -27,10 +27,12 @@ public class ListArray
         System.out.println(myarray);//print all element
         System.out.println(myarray.get(0));//print element at index 0
         myarray.clear();//remove all element from the array list.
-        myarray.add(300);
-        myarray.add(400);
         myarray.add(500);
+        myarray.add(400);
+        myarray.add(300);
+        myarray.contains(100);//check if 100 is in array list
         for(int i=0;i<myarray.size();i++)
             System.out.println(myarray.get(i));
+        Collections.sort(myarray);// sort the array list
     }
 }
