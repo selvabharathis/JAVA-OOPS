@@ -1,0 +1,7 @@
+method overloading
+    1) can have same name of method with in same class
+    2) can be achieved through different parameters list and same return type.
+method overriding
+    1) can have same name of method with in different class
+    2) it is achieved through inheritance.
+    3) can have any number of parameter list.
