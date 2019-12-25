@@ -92,6 +92,3 @@ public class EmployeeManagementService extends Employee           // INHERITANCE
           } 
       }
  }
-/*
-1) remove employee : check id presence implemented not working
-*/
