@@ -12,5 +12,5 @@ public interface Character {
 // and it is static-we don't have to create an instance. 
     public void attack(); // no implementation , its abstract method.
     public void heal();
-    public String getWeapon();
+    public String getWeapon(); // these method are by default public and abstract.
 }
